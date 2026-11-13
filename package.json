@@ -1,0 +1,22 @@
+{
+  "name": "taodock-zapier",
+  "version": "1.0.0",
+  "description": "Taodock integration for Zapier: model discovery, chat, image generation, video creation and task status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test --timeout 10000 --exit",
+    "zapier": "zapier"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "zapier-platform-core": "^19.3.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.0.0",
+    "nock": "^13.5.6"
+  }
+}
